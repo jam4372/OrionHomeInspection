@@ -19,7 +19,7 @@ $(document).ready(function() {
         $('html, body').animate({ scrollTop: $("#ft_about").offset().top - ($("nav").height() + 30) }, 500);
     })
 
-    $("#nav_contact, #jb_contacts").click(function(e) {
+    $("#nav_contact").click(function(e) {
         e.preventDefault();
         $('html, body').animate({ scrollTop: $("#contact").offset().top }, 500);
     })
@@ -28,4 +28,8 @@ $(document).ready(function() {
         $('.navbar-collapse').collapse('hide');
     });
 
+    $("#jb_contacts").click(function(e) {
+        e.preventDefault();
+        $('html, body').animate({ scrollTop: $("#ft_request").offset().top - ($("nav").height() + 30) }, 500);
+    })
 })

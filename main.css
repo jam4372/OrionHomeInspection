@@ -71,7 +71,7 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-position: center;
+  background-position-x: right !important;
   color:white !important;
   height: 100vh !important;
   width: 100%;
@@ -99,6 +99,37 @@
   padding-top: 40px;
   text-align: center;
   display: block;
+}
+
+@media only screen and (min-width: 989px) {
+  .marketing {
+    display: none;
+  }
+
+  .top_divider {
+    display: none;
+  }
+}
+
+.form-container {
+  display:block;
+  width: 100%;
+}
+
+.featurette-heading-container {
+  display:block;
+  width: 100%;
+  padding: 15px;
+}
+
+.featurette-image {
+  align-items: center;
+}
+
+iframe {
+  display:block;
+  width:100%;
+  height:400px;
 }
 
 .marketing .col-lg-4 {
@@ -168,6 +199,14 @@ footer a:hover{
 .row{
   margin: 0 auto;
   z-index: 1;
+}
+
+.img-container {
+  display: flex;
+}
+
+.featurette-image {
+  align-self: center;
 }
 
 .badges {
