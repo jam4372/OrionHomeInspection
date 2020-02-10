@@ -92,6 +92,7 @@
     background-position-y: 0% !important;
     color:white !important;
     background-size: 100% auto;
+    height: 100vh !important;
     padding-bottom: 100px;
   }
 }
