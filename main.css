@@ -71,8 +71,8 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-position-x: right !important;
-  background-position-y: bottom !important;
+  background-position-x: center !important;
+  background-position-y: 0 !important;
   color:white !important;
   height: 100vh !important;
   width: 100%;
@@ -222,4 +222,8 @@ footer a:hover{
 
 #faq {
   font-size: 12pt;
+}
+
+.btn-link {
+  white-space: normal !important;
 }
