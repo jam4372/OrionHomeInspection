@@ -69,13 +69,11 @@
   ),
   url(keith-polischuk-15RpelTxDls-unsplash.jpeg);
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
   background-position-x: center !important;
   background-position-y: 0 !important;
   color:white !important;
-  height: 100vh !important;
-  width: 100%;
+  background-size: cover;
+  width:100%;
   padding-bottom: 100px;
 }
 
