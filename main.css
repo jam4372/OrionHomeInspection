@@ -79,6 +79,26 @@
   padding-bottom: 100px;
 }
 
+@media only screen and (max-width: 767px) {
+  #jb_main {
+    background: 
+    linear-gradient(
+      rgba(0, 0, 0, .85), 
+      rgba(125, 250, 250, 0)
+    ),
+    url(keith-polischuk-15RpelTxDls-unsplash-smash.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position-x: 60% !important;
+    background-position-y: 0% !important;
+    color:white !important;
+    height: 100vh !important;
+    width: 100%;
+    padding-bottom: 100px;
+  }
+}
+
 .page-scroll{
   height:100%;
 }
