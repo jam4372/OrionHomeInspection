@@ -104,13 +104,27 @@
 .btn-outline-danger{
   margin: 0 auto;
   display: block;
-  margin-top: 600px;
+  margin-top: 450px;
   text-align: center;
   color:white;
   border-color:white;
   border-radius:5px;
   font-weight:100;
   font-family: 'Varela Round', sans-serif;
+}
+
+@media only screen and (max-width: 1020px) {
+  .btn-outline-danger{
+    margin: 0 auto;
+    display: block;
+    margin-top: 650px;
+    text-align: center;
+    color:white;
+    border-color:white;
+    border-radius:5px;
+    font-weight:100;
+    font-family: 'Varela Round', sans-serif;
+  }
 }
 
 @media only screen and (max-width: 767px) {
